@@ -63,7 +63,7 @@ body {
   color: #ff3998;
 }
 
-.container.hero {
+.container .hero {
   display: flex;
   justify-content: flex-start;
   width: 1120px;
