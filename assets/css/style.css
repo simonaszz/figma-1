@@ -14,7 +14,7 @@ body {
   /* filter: blur(358.956px); */
 }
 .cont {
-  width: 1280px;
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   background: #111111;
@@ -209,7 +209,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 1em;
+
   background-color: #000000;
   border-radius: 16px;
   width: 290px;
