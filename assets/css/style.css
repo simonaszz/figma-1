@@ -9,17 +9,24 @@
 }
 body {
   width: 1440px;
-  background-color: #ff3998;
+  background-color: #111111;
+  margin: auto;
   /* filter: blur(358.956px); */
 }
+.cont {
+  width: 1280px;
+  background: #111111;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
+}
 .header {
-  background-color: lightslategray;
+  background-color: #111111;
   box-shadow: 0px 1.82591px 7.30366px rgba(0, 0, 0, 0.12);
   border-radius: 7.30366px;
   margin-top: 4em;
 }
 .container {
-  width: 75%;
+  width: 100%;
   margin: auto;
 }
 
@@ -59,12 +66,290 @@ body {
   color: #cccccc;
   text-decoration: none;
 }
-.nav-links .sing-up {
+.navbar .nav-links .sing-up {
+  color: #ff3998;
+  text-transform: capitalize;
+}
+
+.container .wrapp {
+  display: flex;
+  justify-content: flex-start;
+}
+.wrap .text {
+  position: absolute;
+  width: 620px;
+  height: 483px;
+}
+.title-text {
+  color: #ff3998;
+  text-transform: uppercase;
+}
+.text-nft {
+  text-transform: uppercase;
+}
+.text .title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 116px;
+  color: #ffffff;
+}
+
+.hero-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  padding-bottom: 2em;
+
+  color: #cccccc;
+  width: 60%;
+}
+
+.btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+
+  text-align: center;
+  background: linear-gradient(black, black) padding-box,
+    linear-gradient(to right, red 1%, #ff3998 20%, #ff8139 99%) border-box;
+
+  border-radius: 50em;
+  border: 3px solid transparent;
+  padding: 10px 15px;
+}
+.graphic {
+  width: 50%;
+}
+.graphic img {
+  height: 42em;
+  padding-right: 2em;
+}
+.upsell {
+  margin-top: 7em;
+
+  height: 320px;
+  border-radius: 1em;
+
+  background: linear-gradient(-0.7turn, #ff3998, #ff8139, #ff3939, #39ffa0);
+}
+.upsell .upsell-text1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  margin-left: 2em;
+  padding-top: 4em;
+}
+
+.upsell .upsell-text2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 4em;
+}
+.press {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5em;
+  margin-bottom: 5.5em;
+  padding: 0;
+}
+.press li {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31.0199px;
+  color: #999999;
+  list-style: none;
+}
+
+.showcase-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.showcase-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #999999;
+  margin-bottom: 2em;
+}
+.showcase-text a {
+  color: #999999;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1em;
+  background-color: #000000;
+  border-radius: 16px;
+  width: 290px;
+  height: 400px;
+}
+.card-left ul {
+  list-style: none;
+
+  padding: 0;
+}
+.card-left .card-text-1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 2em;
+
+  text-transform: uppercase;
+  color: #ff8139;
+}
+.card-left .card-text-2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 2em;
+  color: #ffffff;
+}
+.card-left .card-text-3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 2em;
+  color: #777777;
+}
+
+.card-right ul {
+  list-style: none;
+}
+
+.card-right .card-text-1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 2em;
+  /* identical to box height, or 12px */
+
+  text-align: right;
+  text-transform: uppercase;
+
+  /* Dark 3 */
+
+  color: #777777;
+}
+.card-right .card-text-2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 2em;
+  /* identical to box height, or 20px */
+
+  text-align: right;
+
+  /* Light 1 */
+
+  color: #ffffff;
+}
+
+.card-right .card-text-3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 2em;
+  /* identical to box height, or 18px */
+
+  text-align: right;
+
+  /* Dark 3 */
+
+  color: #777777;
+}
+
+.footer-upsell {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  margin: 5em 0;
+
+  width: 1280px;
+}
+
+.footer-upsell .footer-text {
+  width: 50%;
+}
+.footer-text p.foter-text-title {
+  margin-top: 2em;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
   color: #ff3998;
 }
 
-.container .hero {
-  display: flex;
-  justify-content: flex-start;
-  width: 1120px;
+.footer-text p.footer-text-1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 68px;
+  margin: 1em 0;
+
+  color: #ffffff;
+}
+.footer-text p.footer-text-2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  width: 26em;
+  margin: 2em 0;
+
+  color: #cccccc;
+}
+
+.footer-image img {
+  margin-top: 4em;
+  margin-right: 12em;
+}
+img.line {
+  position: absolute;
+  top: 33.2em;
+  width: 1280px;
+  height: 2px;
 }
