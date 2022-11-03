@@ -15,6 +15,8 @@ body {
 }
 .cont {
   width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
   background: #111111;
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
   border-radius: 16px;
@@ -255,12 +257,9 @@ body {
   font-weight: 500;
   font-size: 12px;
   line-height: 2em;
-  /* identical to box height, or 12px */
 
   text-align: right;
   text-transform: uppercase;
-
-  /* Dark 3 */
 
   color: #777777;
 }
@@ -270,11 +269,8 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 2em;
-  /* identical to box height, or 20px */
 
   text-align: right;
-
-  /* Light 1 */
 
   color: #ffffff;
 }
@@ -285,11 +281,8 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 2em;
-  /* identical to box height, or 18px */
 
   text-align: right;
-
-  /* Dark 3 */
 
   color: #777777;
 }
